@@ -1,0 +1,42 @@
+@keyframes down{
+    0%{
+        opacity: 0;
+        transform: translateY(20rem);
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes hello-world{
+    0%{
+        opacity: 0;
+        transform: translateX(-20rem);
+    }
+    80%{
+        transform: translateX(2rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes welcome-home{
+    0%{
+        opacity: 0;
+        transform: translateX(20rem);
+    }
+    80%{
+        transform: translateX(-2rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+

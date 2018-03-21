@@ -1,0 +1,65 @@
+
+.btn{
+    &:link,
+    &:visited{
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem; 
+        transition: all .2s; 
+        position: relative;
+    }
+
+    &--white{
+        background-color: $color-white;
+        color: $color-black-light;
+
+        &::before{
+            background-color: $color-white-light;
+        }
+    }
+    &--green{
+        background-color: $color-primary;
+        color: $color-white-light;
+
+        &::before{
+            background-color: $color-primary-light;
+        }
+    }
+
+    &:hover{
+        transform: translateY(-0.3rem);
+        box-shadow: 0.1rem 1rem 2rem rgba($color-black,.2);
+        
+        &::before{
+            transform: scale(1.4,1.6 );
+            opacity: 0;
+        }
+    }
+
+    &:active{
+        transform: translateY(-1px);   
+        box-shadow: 0.1rem 0.5rem 1rem rgba($color-black,.2);
+        
+    }
+
+    &::before{
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;    
+    }
+
+    &--animation{
+        animation: down 1s ease-out .7s;
+        animation-fill-mode: backwards;    
+    }
+
+}

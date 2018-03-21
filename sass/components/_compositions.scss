@@ -1,0 +1,41 @@
+.image{
+
+    display: inline-block;  
+    position: relative;
+    height: 30rem;
+    
+    z-index: 10;
+    .img-pos{
+        position: absolute;
+        border-radius: 2px;
+        box-shadow: 0 1.5rem 2rem rgba(black ,.4);
+        transition: all .2s;
+        outline-offset: 1.2rem;
+        
+        &:hover{
+            transform: scale(1.05);
+            outline: 1.1rem solid $color-primary-light;
+            z-index: 40;
+        }
+    }
+    .img-pos1{
+        top: 0;
+        left:15rem;
+    }
+    .img-pos2{
+        top: 5rem;
+        left: 2rem;
+    }
+    .img-pos3{
+        top: 15rem;
+        left: 20rem;
+    }
+    &::after{
+        content: "";
+        clear: both;
+    }
+    &:hover .img-pos:not(:hover){
+        transform: scale(0.9);
+    }
+   
+}

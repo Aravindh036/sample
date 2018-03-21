@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'sass' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
+4 verbose run-script [ 'presass', 'sass', 'postsass' ]
+5 info lifecycle starter@1.0.0~presass: starter@1.0.0
+6 silly lifecycle starter@1.0.0~presass: no script for presass, continuing
+7 info lifecycle starter@1.0.0~sass: starter@1.0.0
+8 verbose lifecycle starter@1.0.0~sass: unsafe-perm in lifecycle true
+9 verbose lifecycle starter@1.0.0~sass: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Tutorial\Web Development\Traversy Media\New folder\New folder\HTML and CSS3\Advanced-css-and-sass\advanced-css-course\Natours\starter\node_modules\.bin;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\8.2.2\lib\extralibs\bin;C:\Program Files\Haskell Platform\8.2.2\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\CodeBlocks\TDM-GCC\bin;C:\Android\sdk\platform-tools;C:\Users\Aravindh balaji\AppData\Local\GitHubDesktop;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Haskell Platform\8.2.2\mingw\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Java\jdk-9\bin;C:\Users\Aravindh balaji\AppData\Roaming\npm;C:\Users\Aravindh balaji\AppData\;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Ruby23-x64\bin;C:\Users\Aravindh balaji\AppData\Roaming\cabal\bin;C:\Users\Aravindh balaji\AppData\Roaming\local\bin;C:\Users\Aravindh balaji\AppData\Local\Microsoft\WindowsApps;C:\Users\Aravindh balaji\AppData\Local\GitHubDesktop\bin;C:\Users\Aravindh balaji\AppData\Local\Android\Sdk\tools;C:\Users\Aravindh balaji\AppData\Local\Android\Sdk\platform-tools;C:\Users\Aravindh balaji\AppData\Local\atom\bin;C:\Users\Aravindh balaji\AppData\Local\Microsoft\WindowsApps;C:\Users\Aravindh balaji\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
+10 verbose lifecycle starter@1.0.0~sass: CWD: C:\Tutorial\Web Development\Traversy Media\New folder\New folder\HTML and CSS3\Advanced-css-and-sass\advanced-css-course\Natours\starter
+11 silly lifecycle starter@1.0.0~sass: Args: [ '/d /s /c',
+11 silly lifecycle   'node-sass  sass/main.scss  css/compile-style.css -w' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1022:11)
+12 verbose stack     at process.kill (internal/process.js:173:13)
+12 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:200:44)
+13 verbose cwd C:\Tutorial\Web Development\Traversy Media\New folder\New folder\HTML and CSS3\Advanced-css-and-sass\advanced-css-course\Natours\starter\sass
+14 error Windows_NT 10.0.16299
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "sass"
+16 error node v7.4.0
+17 error npm  v4.0.5
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
